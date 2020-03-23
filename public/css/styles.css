@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	font-size: 1em;
+	font-family: "Arial";
+}
+:root {
+	--main-bg-color: #FDC400;
+	--sec-bg-color: #596869;
+	--nav-bg-color: #515751;
+	--font-color: #242424;
+	--sec-f-color: #F5F9E9;
+
+}
+
+body {
+	margin: 0px;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: 6em auto 6em;
+	grid-template-columns: auto;
+
+	background-color: var(--main-bg-color);
+	color: var(--font-color);
+}
+
+button {
+	border: none;
+}
+
